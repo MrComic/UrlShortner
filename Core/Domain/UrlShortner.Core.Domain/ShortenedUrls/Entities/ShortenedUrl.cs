@@ -9,15 +9,14 @@ using UrlShortner.Framework.Domain.Exceptions;
 
 namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
 {
-    public class ShortenedUrl : BaseEntity<Guid>
+    public class ShortenedUrl : BaseEntity<int>
     {
         #region Fields    
         public ActualUrl ActualUrl { get; protected set; }
-        public UrlCode Code { get; protected set; }
         public VisitCount ViewdCount { get; protected set; }
         #endregion
 
-        public ShortenedUrl(string Url, string Code)
+        public ShortenedUrl(string Url)
         {
             HandleEvent(new UrlCreated() { Url = Url, Code = Code });
         }
@@ -32,8 +31,7 @@ namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
         protected override void ValidateInvariants()
         {
             var isValid =
-                Id != null &&
-                Code != null &&
+                ActualUrl != null &&
                 ViewdCount != null;
             if (!isValid)
             {
@@ -48,7 +46,6 @@ namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
                 case UrlCreated e:
                     {
                         this.ActualUrl = new ActualUrl(e.Url);
-                        this.Code = new UrlCode(e.Code);
                     }
                     break;
                 case UrlVisited e:

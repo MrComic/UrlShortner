@@ -1,0 +1,5 @@
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.csprojAssemblyReference.cache
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.AssemblyInfoInputs.cache
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.AssemblyInfo.cs
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.csproj.CoreCompileInputs.cache

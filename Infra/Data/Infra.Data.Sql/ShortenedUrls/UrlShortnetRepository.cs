@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UrlShortner.Core.Domain.ShortenedUrls.Data;
+using UrlShortner.Core.Domain.ShortenedUrls.Entities;
 
 namespace UrlShortner.Infra.Data.SqlServer.ShortenedUrls
 {
@@ -12,6 +13,11 @@ namespace UrlShortner.Infra.Data.SqlServer.ShortenedUrls
         public void Dispose()
         {
             this.applicationDbContext.Dispose();
+        }
+
+        public void add(ShortenedUrl url)
+        {
+            applicationDbContext.ShortenedUrls.Add(url);
         }
 
         private readonly ApplicationDbContext applicationDbContext;
