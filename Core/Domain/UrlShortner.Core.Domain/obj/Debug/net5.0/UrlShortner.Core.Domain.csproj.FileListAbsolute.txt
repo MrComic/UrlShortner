@@ -1,0 +1,11 @@
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.AssemblyInfoInputs.cache
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.AssemblyInfo.cs
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.csproj.CoreCompileInputs.cache
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\net5.0\UrlShortner.Core.Domain.deps.json
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\net5.0\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\net5.0\ref\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\net5.0\UrlShortner.Core.Domain.pdb
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\ref\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.pdb

@@ -1,0 +1,15 @@
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.csprojAssemblyReference.cache
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.AssemblyInfoInputs.cache
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.AssemblyInfo.cs
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.csproj.CoreCompileInputs.cache
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.deps.json
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.dll
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\ref\UrlShortner.Infra.Data.SqlServer.dll
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.pdb
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Core.Domain.pdb
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.csproj.CopyComplete
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.dll
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\ref\UrlShortner.Infra.Data.SqlServer.dll
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.pdb

@@ -1,0 +1,9 @@
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\netcoreapp3.1\UrlShortner.Core.Domain.deps.json
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\netcoreapp3.1\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\netcoreapp3.1\UrlShortner.Core.Domain.pdb
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\netcoreapp3.1\UrlShortner.Core.Domain.csprojAssemblyReference.cache
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\netcoreapp3.1\UrlShortner.Core.Domain.AssemblyInfoInputs.cache
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\netcoreapp3.1\UrlShortner.Core.Domain.AssemblyInfo.cs
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\netcoreapp3.1\UrlShortner.Core.Domain.csproj.CoreCompileInputs.cache
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\netcoreapp3.1\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\netcoreapp3.1\UrlShortner.Core.Domain.pdb

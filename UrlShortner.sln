@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortner.Endpoints.Api",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1271F5C5-03C0-481D-BA20-50FDE87C0F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data.Sql", "Infra\Data\Infra.Data.Sql\Infra.Data.Sql.csproj", "{6B2BEC1C-5E13-478F-8F55-698535DD2753}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortner.Infra.Data.SqlServer", "Infra\Data\Infra.Data.Sql\UrlShortner.Infra.Data.SqlServer.csproj", "{6B2BEC1C-5E13-478F-8F55-698535DD2753}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortner.Core.Domain", "Core\Domain\UrlShortner.Core.Domain\UrlShortner.Core.Domain.csproj", "{C687D2D4-FFDD-445D-9955-73C366CB673F}"
 EndProject

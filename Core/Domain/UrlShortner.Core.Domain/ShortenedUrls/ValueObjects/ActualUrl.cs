@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UrlShortner.Core.Domain.ValueObject;
 
-namespace UrlShortner.Core.Domain.ShortenedUrl.ValueObjects
+namespace UrlShortner.Core.Domain.ShortenedUrls.ValueObjects
 {
     public class ActualUrl : BaseValueObject<ActualUrl>
     {

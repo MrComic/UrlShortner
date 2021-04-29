@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
-using UrlShortner.Core.Domain.ShortenedUrl.Entities;
+using UrlShortner.Core.Domain.ShortenedUrls.Entities;
 
-namespace Infra.Data.SqlServer
+namespace UrlShortner.Infra.Data.SqlServer
 {
     public class ApplicationDbContext : DbContext
     {

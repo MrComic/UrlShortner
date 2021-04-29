@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UrlShortner.Core.Domain/1.0.0": {
+        "runtime": {
+          "UrlShortner.Core.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UrlShortner.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using UrlShortner.Core.Domain.ValueObject;
 
-namespace UrlShortner.Core.Domain.ShortenedUrl.ValueObjects
+namespace UrlShortner.Core.Domain.ShortenedUrls.ValueObjects
 {
     public class VisitCount : BaseValueObject<VisitCount>
     {
         public int Value { get; private set; }
-        public static VisitCount FromString(string value) => new VisitCount(int.Parse(value));
+        public static VisitCount FromInt(int value) => new VisitCount(value);
         private VisitCount()
         {
-
         }
 
         public VisitCount(int value)
