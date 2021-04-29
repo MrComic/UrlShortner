@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UrlShortner.Core.Domain.Exceptions
+namespace UrlShortner.Framework.Domain.Exceptions
 {
     public class CustomExceptionsBase:Exception
     {

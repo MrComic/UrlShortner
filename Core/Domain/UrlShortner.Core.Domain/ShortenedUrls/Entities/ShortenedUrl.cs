@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using UrlShortner.Core.Domain.Exceptions;
 using UrlShortner.Core.Domain.ShortenedUrls.Events;
 using UrlShortner.Core.Domain.ShortenedUrls.ValueObjects;
 using UrlShortner.Framework.Domain.Entities;
 using UrlShortner.Framework.Domain.Events;
+using UrlShortner.Framework.Domain.Exceptions;
 
 namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
 {
