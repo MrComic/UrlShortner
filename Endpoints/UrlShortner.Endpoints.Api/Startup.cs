@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UrlShortner.Endpoints.Api.StartupExtentions;
 
 namespace UrlShortner.Endpoints.Api
 {
@@ -28,6 +29,9 @@ namespace UrlShortner.Endpoints.Api
         {
 
             services.AddControllers();
+            services.ConfigureRepositories();
+            services.ConfigureUnitOfWork();
+            services.ConfigureDatabases(Configuration);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "UrlShortner.Endpoints.Api", Version = "v1" });

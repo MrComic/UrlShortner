@@ -15,3 +15,6 @@ G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\ref\UrlSh
 G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.pdb
 G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Framework.Domain.dll
 G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Framework.Domain.pdb
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.runtimeconfig.json
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.runtimeconfig.dev.json
+G:\source\repos\UrlShortner\Infra\Data\Infra.Data.Sql\obj\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.genruntimeconfig.cache

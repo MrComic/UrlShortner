@@ -9,16 +9,16 @@ using UrlShortner.Framework.Domain.Exceptions;
 
 namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
 {
-    public class ShortenedUrl : BaseEntity<int>
+    public class ShortenedUrl : BaseEntity<int> , IAuditable
     {
         #region Fields    
         public ActualUrl ActualUrl { get; protected set; }
-        public VisitCount ViewdCount { get; protected set; }
+        public VisitCount VisitCount { get; protected set; }
         #endregion
-
+        private ShortenedUrl() { }
         public ShortenedUrl(string Url)
         {
-            HandleEvent(new UrlCreated() { Url = Url, Code = Code });
+            HandleEvent(new UrlCreated() { Url = Url });
         }
 
 
@@ -32,7 +32,7 @@ namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
         {
             var isValid =
                 ActualUrl != null &&
-                ViewdCount != null;
+                VisitCount != null;
             if (!isValid)
             {
                 throw new CustomExceptionsBase("وضعیت آدرس وارد شده ناصحیح میی باشد");
@@ -50,7 +50,7 @@ namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
                     break;
                 case UrlVisited e:
                     {
-                        this.ViewdCount = new VisitCount(this.ViewdCount.Value + 1);
+                        this.VisitCount = new VisitCount(this.VisitCount.Value + 1);
                     }
                     break;
                 default:

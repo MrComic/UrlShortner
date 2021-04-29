@@ -3,3 +3,17 @@ G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\
 G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.AssemblyInfoInputs.cache
 G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.AssemblyInfo.cs
 G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.csproj.CoreCompileInputs.cache
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Core.ApplicationServices.deps.json
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Core.ApplicationServices.dll
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\ref\UrlShortner.Core.ApplicationServices.dll
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Core.ApplicationServices.pdb
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Core.Domain.dll
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Framework.Domain.dll
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.dll
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Framework.Domain.pdb
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.pdb
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\bin\Debug\net5.0\UrlShortner.Core.Domain.pdb
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.csproj.CopyComplete
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.dll
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\ref\UrlShortner.Core.ApplicationServices.dll
+G:\source\repos\UrlShortner\Core\UrlShortner.Core.ApplicationServices\obj\Debug\net5.0\UrlShortner.Core.ApplicationServices.pdb
