@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using UrlShortner.Framework.Domain.Events;
 
-namespace UrlShortner.Core.Domain
+namespace UrlShortner.Framework.Domain.Entities
 {
     public abstract class BaseEntity<Key> where Key : IEquatable<Key>
     {
@@ -64,6 +64,5 @@ namespace UrlShortner.Core.Domain
         {
             return (GetType().ToString() + Id).GetHashCode();
         }
-
     }
 }

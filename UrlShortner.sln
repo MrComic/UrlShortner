@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortner.Infra.Data.SqlS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortner.Core.Domain", "Core\Domain\UrlShortner.Core.Domain\UrlShortner.Core.Domain.csproj", "{C687D2D4-FFDD-445D-9955-73C366CB673F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameWork", "FrameWork", "{1A6DC928-DC72-4E59-BB1A-458A4B647D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortner.Framework.Domain", "Framework\UrlShortner.Domain\UrlShortner.Framework.Domain.csproj", "{B064A066-A50E-4DAA-824F-E5D31AFC635F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{C687D2D4-FFDD-445D-9955-73C366CB673F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C687D2D4-FFDD-445D-9955-73C366CB673F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C687D2D4-FFDD-445D-9955-73C366CB673F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B064A066-A50E-4DAA-824F-E5D31AFC635F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B064A066-A50E-4DAA-824F-E5D31AFC635F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B064A066-A50E-4DAA-824F-E5D31AFC635F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B064A066-A50E-4DAA-824F-E5D31AFC635F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{1271F5C5-03C0-481D-BA20-50FDE87C0F62} = {36E29E3A-47E6-44E5-B223-A5A6C91C8561}
 		{6B2BEC1C-5E13-478F-8F55-698535DD2753} = {1271F5C5-03C0-481D-BA20-50FDE87C0F62}
 		{C687D2D4-FFDD-445D-9955-73C366CB673F} = {846E75DD-C487-4968-BF09-FAA18CB4E9E0}
+		{B064A066-A50E-4DAA-824F-E5D31AFC635F} = {1A6DC928-DC72-4E59-BB1A-458A4B647D5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83657E1B-3271-4269-A155-8417DC742F9D}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UrlShortner.Core.Domain
+namespace UrlShortner.Framework.Domain.Events
 {
     public interface IEvent
     {

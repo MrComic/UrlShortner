@@ -1485,11 +1485,24 @@
       "UrlShortner.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "UrlShortner.Framework.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/UrlShortner.Core.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/UrlShortner.Core.Domain.dll": {}
+        }
+      },
+      "UrlShortner.Framework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/UrlShortner.Framework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UrlShortner.Framework.Domain.dll": {}
         }
       }
     }
@@ -5662,6 +5675,11 @@
       "type": "project",
       "path": "../../../Core/Domain/UrlShortner.Core.Domain/UrlShortner.Core.Domain.csproj",
       "msbuildProject": "../../../Core/Domain/UrlShortner.Core.Domain/UrlShortner.Core.Domain.csproj"
+    },
+    "UrlShortner.Framework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Framework/UrlShortner.Domain/UrlShortner.Framework.Domain.csproj",
+      "msbuildProject": "../../../Framework/UrlShortner.Domain/UrlShortner.Framework.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

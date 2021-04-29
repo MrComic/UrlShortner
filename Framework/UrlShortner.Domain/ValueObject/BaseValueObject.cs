@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UrlShortner.Core.Domain.ValueObject
+namespace UrlShortner.Framework.Domain.ValueObject
 {
     public abstract class BaseValueObject<TValueObject> : IEquatable<TValueObject>
-            where TValueObject : BaseValueObject<TValueObject>
+           where TValueObject : BaseValueObject<TValueObject>
     {
         public override bool Equals(object obj)
         {

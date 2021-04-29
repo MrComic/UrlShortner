@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using UrlShortner.Core.Domain.ValueObject;
+using UrlShortner.Framework.Domain.ValueObject;
 
 namespace UrlShortner.Core.Domain.ShortenedUrls.ValueObjects
 {

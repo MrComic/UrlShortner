@@ -4,6 +4,8 @@ using System.Text;
 using UrlShortner.Core.Domain.Exceptions;
 using UrlShortner.Core.Domain.ShortenedUrls.Events;
 using UrlShortner.Core.Domain.ShortenedUrls.ValueObjects;
+using UrlShortner.Framework.Domain.Entities;
+using UrlShortner.Framework.Domain.Events;
 
 namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
 {

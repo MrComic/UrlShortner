@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "UrlShortner.Framework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/UrlShortner.Framework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UrlShortner.Framework.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "UrlShortner.Framework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Framework/UrlShortner.Domain/UrlShortner.Framework.Domain.csproj",
+      "msbuildProject": "../../../Framework/UrlShortner.Domain/UrlShortner.Framework.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "UrlShortner.Framework.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mohammad\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\source\\repos\\UrlShortner\\Framework\\UrlShortner.Domain\\UrlShortner.Framework.Domain.csproj": {
+              "projectPath": "G:\\source\\repos\\UrlShortner\\Framework\\UrlShortner.Domain\\UrlShortner.Framework.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

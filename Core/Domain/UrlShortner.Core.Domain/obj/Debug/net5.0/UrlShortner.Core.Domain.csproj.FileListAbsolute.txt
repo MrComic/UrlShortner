@@ -9,3 +9,7 @@ G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\net5.0
 G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.dll
 G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\ref\UrlShortner.Core.Domain.dll
 G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.pdb
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.csprojAssemblyReference.cache
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\net5.0\UrlShortner.Framework.Domain.dll
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\bin\Debug\net5.0\UrlShortner.Framework.Domain.pdb
+G:\source\repos\UrlShortner\Core\Domain\UrlShortner.Core.Domain\obj\Debug\net5.0\UrlShortner.Core.Domain.csproj.CopyComplete

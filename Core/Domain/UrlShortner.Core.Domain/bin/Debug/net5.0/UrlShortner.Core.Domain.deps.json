@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "UrlShortner.Core.Domain/1.0.0": {
+        "dependencies": {
+          "UrlShortner.Framework.Domain": "1.0.0"
+        },
         "runtime": {
           "UrlShortner.Core.Domain.dll": {}
+        }
+      },
+      "UrlShortner.Framework.Domain/1.0.0": {
+        "runtime": {
+          "UrlShortner.Framework.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "UrlShortner.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UrlShortner.Framework.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
