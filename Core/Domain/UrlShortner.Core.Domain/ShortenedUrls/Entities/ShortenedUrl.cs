@@ -46,6 +46,7 @@ namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
                 case UrlCreated e:
                     {
                         this.ActualUrl = new ActualUrl(e.Url);
+                        this.VisitCount = new VisitCount(0);
                     }
                     break;
                 case UrlVisited e:

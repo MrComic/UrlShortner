@@ -68,3 +68,4 @@ G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0
 G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\UrlShortner.Infra.Data.SqlServer.pdb
 G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\Humanizer.dll
 G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
