@@ -52,7 +52,7 @@ namespace UrlShortner.Endpoints.Api.StartupExtentions
             var innerExMessage = GetInnermostExceptionMessage(exception);
 
             var level = _options.DetermineLogLevel?.Invoke(exception) ?? LogLevel.Error;
-            _logger.Log(level, exception, "BADNESS!!! " + innerExMessage + " -- {ErrorId}.", error.Data);
+            _logger.Log(level, exception, "error :" + innerExMessage, error.Data);
 
             var result = JsonConvert.SerializeObject(error);
             context.Response.ContentType = "application/json";

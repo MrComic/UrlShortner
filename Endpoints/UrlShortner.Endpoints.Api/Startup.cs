@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,6 +57,8 @@ namespace UrlShortner.Endpoints.Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "UrlShortner.Endpoints.Api v1"));
             }
+
+            app.UseSerilogRequestLogging();
 
             app.UseStatusCodePages();
 
