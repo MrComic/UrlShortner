@@ -22,7 +22,7 @@ namespace UrlShortner.Core.Domain.ShortenedUrls.Entities
         }
 
 
-        public void AddToVisitCount()
+        public void VisitThisLink()
         {
             HandleEvent(new UrlVisited());
             ValidateInvariants();

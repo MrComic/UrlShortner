@@ -14,6 +14,7 @@ namespace UrlShortner.Endpoints.Api.StartupExtentions
         public static void AddCommandHandlers(this IServiceCollection services)
         {
             services.AddScoped<CreateHandler>();
+            services.AddScoped<RequestToRedirectHandler>();
         }
     }
 }

@@ -20,6 +20,11 @@ namespace UrlShortner.Infra.Data.SqlServer.ShortenedUrls
             applicationDbContext.ShortenedUrls.Add(url);
         }
 
+        public ShortenedUrl Load(int id)
+        {
+            return applicationDbContext.ShortenedUrls.SingleOrDefault(p=>p.Id==id);
+        }
+
         private readonly ApplicationDbContext applicationDbContext;
 
         public UrlShortnetRepository(ApplicationDbContext advertismentDbContext)

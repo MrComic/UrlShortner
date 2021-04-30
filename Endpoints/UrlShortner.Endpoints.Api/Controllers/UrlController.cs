@@ -17,8 +17,11 @@ namespace UrlShortner.Endpoints.Api.Controllers
     [ApiController]
     public class UrlController : BaseApi
     {
+        /// <summary>
+        /// ارسال و ثبت لینک و دریافت کد کوتاه شده
+        /// </summary>
         [HttpPost]
-        [Route("create/{Url}")]
+        [Route("create")]
         public ApiResponse<string> Post([FromServices] CreateHandler handler, Create request)
         {
                int result =  handler.Handle(request);
@@ -27,8 +30,22 @@ namespace UrlShortner.Endpoints.Api.Controllers
                     Success = true,
                     Message = "آدرس با موفقیت ایجاد شد"
                     ,
-                    Data = string.Concat("/api/url/", result)
+                    Data = string.Concat(this.Request.Scheme,"://", this.Request.Host, "/api/url/", result)
                 };
         }
+
+        /// <summary>
+        /// دریافت شناسه و هدایت به لینک ثبت شده 
+        /// </summary>
+        /// <param name="id">شناسه لینک</param>
+        /// <returns>Redirect</returns>
+        [HttpGet]
+        [Route("{id}")]
+        public RedirectResult Get([FromServices] RequestToRedirectHandler handler,int id)
+        {
+            string result = handler.Handle(new Redirect(id));
+            return Redirect(result);
+        }
+
     }
 }

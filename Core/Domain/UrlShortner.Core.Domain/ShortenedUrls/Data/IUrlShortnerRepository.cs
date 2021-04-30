@@ -10,5 +10,6 @@ namespace UrlShortner.Core.Domain.ShortenedUrls.Data
     public interface IUrlShortnerRepository
     {
         void add(ShortenedUrl url);
+        ShortenedUrl Load(int id);
     }
 }

@@ -4,8 +4,8 @@ using System.Text;
 
 namespace UrlShortner.Framework.Domain.ApplicationServices
 {
-    public interface ICommandHandler<TCommand>
+    public interface ICommandHandler<TCommand,TReturn>
     {
-        int Handle(TCommand command);
+        TReturn Handle(TCommand command);
     }
 }
