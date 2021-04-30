@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UrlShortner.Endpoints.Api.Constraints;
+using UrlShortner.Endpoints.Api.Middlewares;
 using UrlShortner.Endpoints.Api.StartupExtentions;
 
 namespace UrlShortner.Endpoints.Api
@@ -64,6 +65,9 @@ namespace UrlShortner.Endpoints.Api
             {
                 app.UseHsts();
             }
+
+            app.UseMiddleware<CustomHeadersMiddleware>();
+
             app.UseSerilogRequestLogging();
 
             app.UseStatusCodePages();

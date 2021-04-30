@@ -80,3 +80,4 @@ G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0
 G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\Serilog.Sinks.File.dll
+G:\source\repos\UrlShortner\Endpoints\UrlShortner.Endpoints.Api\bin\Debug\net5.0\web.config
